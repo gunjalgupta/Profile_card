@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700');
+
+h2, p {
+    font-family: 'Lato', serif;
+    font-size: 16px;
+}
+
+h2 {
+    color: #0a72a2;
+}
+
+p {
+    color: #243B53;
+}
+
+.card {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+    border-top: solid 4px #0a72a2;
+    height: 502px;
+    margin: 0 auto;
+    position: relative;
+    width: 480px;
+}
+
+.background {
+    background-image: url('https://picsum.photos/480/136/?random');
+    background-size: contain;
+    background-position: center;
+    height: 136px;
+}
+
+.content {
+    padding-top:12px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.profile {
+    position: absolute;
+    top: 78.5px;
+    left: 180px;
+}
+
+.profile img {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 50%;
+    height: 115px;
+}
+
+.header {
+    text-transform: capitalize;
+    width: 35%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.header .name {
+    margin: 0px;
+    color: #0a72a2;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+}
+
+.header .location {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    color: #243B53;
+    white-space: nowrap;
+    
+}
+.header .age {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    color: #243B53;
+    font-family: 'Lato', serif;
+    font-size: 16px;
+}
+
+.info { 
+    margin-top: 21px;
+    text-align: center;
+}
+
+.labels {
+    display: flex;
+    margin-top: 20px;
+}
+
+.labels .label {
+    flex-grow: 1;
+    word-wrap: break-word;
+    width: 0;
+}
+
+.labels .label p {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.labels .label h2 {
+    margin: 0px;
+}
+
+.labels .label .button {
+    background-color: #0a72a2;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;  
+    margin-left: 70px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.labels .label .return {
+    background-color: #0a72a2;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;  
+    margin-left: 170px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+} 
+label{
+    width: 60%;
+    padding: 0px 0px;
+    margin: 8px 20px;
+    display: inline-block;
+    color: #243B53;
+    box-sizing: border-box;
+} 
+input[type=submit] {
+    width: 20%;
+    margin: 0px 20px;
+    border: none;
+    background-color: #0a72a2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}

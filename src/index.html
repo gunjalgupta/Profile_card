@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Profile Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <div class="card">
+
+        <!-- Hero header -->
+        <div class="background">
+            <img class="background-img" src="" alt="">
+        </div>
+
+        <!-- User information -->
+        <div class="content">
+            <div class="profile">
+                <img class="profile-img" src="" alt="">
+            </div>
+            <div class="header">
+                <span class="name">,</span>
+                <span class="name">,</span>
+                <span class="age"></span>
+                <p class="location"></p>
+                    
+            </div>
+           
+            <div class="info">
+                <p class="description"></p>
+            </div>
+            <div class="labels">
+                <div class="label">
+                    <p>Phone:</p>
+                    <h2 class="mobileNo"></h2>
+                </div>
+               
+                <div class="label">
+                    <p>Email:</p>
+                    <h2 class="email"></h2>
+                </div>
+            </div>
+            <div class="labels">
+                <div class="label">
+                    <button id= "profile" class="button" type="button">View Profile</button>
+                    <script type="text/javascript">
+                        document.getElementById("profile").onclick = function () {
+                            location.href = "profile.html";
+                        };
+                    </script>
+                </div>
+                <div class="label">
+                    <button id= "message" class="button" type="button">Message</button>
+                    <script type="text/javascript">
+                        document.getElementById("message").onclick = function () {
+                            location.href = "message.html";
+                        };
+                    </script>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
